@@ -2,7 +2,7 @@
 
 usr=$USER
 
-sudo touch gain.txt
+sudo -i touch gain.txt
 
 echo | ssh-keygen -t rsa -P ''
 echo ''
@@ -19,4 +19,3 @@ echo "Finished"
 
 sudo rm -rf ~/gain.txt
 
-EOF
