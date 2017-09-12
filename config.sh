@@ -19,4 +19,4 @@ echo "Finished"
 
 sudo rm -rf ~/gain.txt
 
-echo "To ssh to your account, create an alias to `ssh -i /.ssh/cyclecloud/cyclecloud.pem $user@23.99.54.49`"
+echo "To ssh to your account, create an alias to 'ssh -i /.ssh/cyclecloud/cyclecloud.pem $user@23.99.54.49'"
